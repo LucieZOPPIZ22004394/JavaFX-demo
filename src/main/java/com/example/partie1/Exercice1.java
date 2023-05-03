@@ -22,26 +22,23 @@ public class Exercice1 extends Application{
 
         // Création du conteneur principal
         VBox vbox;
-
         {
             vbox = new VBox();
         }
 
-        // Création du conteneur correspondant à la ligne de contrôle haut dessus du tableau
+        //menu au desssus
         Menu menu1 = new Menu("File");
         Menu menu2 = new Menu("Options");
         Menu menu3 = new Menu("Help");
         MenuBar menuBar = new MenuBar(menu1, menu2, menu3);
 
-
-        //bouton sur le coté
+        //boutons sur le coté
         Label label = new Label("Boutons:");
         Button b1 = new Button("Bouton 1");
         Button b2 = new Button("Bouton 2");
         Button b3 = new Button("Bouton 3");
         Separator separator = new Separator(Orientation.HORIZONTAL);
         VBox LesBoutons = new VBox(label,b1,b2,b3,separator);
-
 
         //label de pas de page
         HBox topRightControls= new HBox();
