@@ -26,6 +26,7 @@ public class Exercice1 extends Application{
             vbox = new VBox();
         }
 
+
         //menu au desssus
         Menu menu1 = new Menu("File");
         Menu menu2 = new Menu("Options");
