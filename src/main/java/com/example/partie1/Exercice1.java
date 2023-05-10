@@ -50,13 +50,13 @@ public class Exercice1 extends Application{
         Button button = new Button();
         GridPane.setRowIndex(button, 0);
         GridPane.setColumnIndex(button, 1);
-        Vbox Milieu = new Vbox(button,gridpane);
+
 
 
 
         topRightControls.getChildren().addAll(labelBasDePage);
 
-        vbox.getChildren().addAll(menuBar,LesBoutons,topRightControls,Milieu);
+        vbox.getChildren().addAll(menuBar,LesBoutons,topRightControls);
 
 
 
