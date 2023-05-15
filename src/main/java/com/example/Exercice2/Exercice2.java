@@ -1,16 +1,13 @@
-package com.example.Exerice2;
+package com.example.Exercice2;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
+import javafx.scene.control.Separator;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
-import javafx.scene.layout.HBox;
-import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
 
 import java.util.Random;
 
@@ -34,14 +31,23 @@ public class Exercice2 extends Application {
         Label label8 = new Label();
         Label label9 = new Label();
 
-
-        Image CCroix= new Image("Croix.png".toString());
-        Image RRond= new Image("Rond.png".toString());
-        Image VVide=new Image("Vide.png".toString());
+        Image CCroix= new Image(Exercice2.class.getResource("Croix.png").toString());
+        Image RRond= new Image(Exercice2.class.getResource("Rond.png").toString());
+        Image VVide=new Image(Exercice2.class.getResource("Vide.png").toString());
         ImageView Croix = new ImageView(CCroix);
         ImageView Rond = new ImageView(RRond);
         ImageView Vide = new ImageView(VVide);
         ImageView Tab[]={Croix,Rond,Vide};
+
+       label1.setStyle("-fx-border-color: lightgrey;");
+       label2.setStyle("-fx-border-color: lightgrey;");
+       label3.setStyle("-fx-border-color: lightgrey;");
+       label4.setStyle("-fx-border-color: lightgrey;");
+       label5.setStyle("-fx-border-color: lightgrey;");
+       label6.setStyle("-fx-border-color: lightgrey;");
+       label7.setStyle("-fx-border-color: lightgrey;");
+       label8.setStyle("-fx-border-color: lightgrey;");
+       label9.setStyle("-fx-border-color: lightgrey;");
 
         conteneur.add(label1,0,0);
         conteneur.add(label2,0,1);
