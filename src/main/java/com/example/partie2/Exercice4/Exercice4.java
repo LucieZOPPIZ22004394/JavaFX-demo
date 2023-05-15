@@ -1,4 +1,4 @@
-package com.example.Exercice4;
+package com.example.partie2.Exercice4;
 
 import javafx.application.Application;
 import javafx.geometry.Insets;
