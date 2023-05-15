@@ -10,4 +10,5 @@ module com.example.javafxdemo {
     exports com.example.partie1;
     exports com.example.partie2;
     exports com.example.Exercice4;
+    exports com.example.Exerice2;
 }
